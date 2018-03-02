@@ -1,0 +1,331 @@
+<!DOCTYPE>
+
+<html>
+    <head>
+        <script src="js/jquery-3.3.1.js"></script>
+
+        <style>
+            body
+            {
+                margin: 0px;
+                height: 100%;
+                width: 100%;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #coverphoto
+            {
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                width: 100%;
+                height: 100%;
+            }
+
+            #coverphoto img
+            {
+                height: 450px;
+                width: 100%;
+            }
+
+            #profpicborder
+            {
+                background-color: white;
+                position: absolute;
+                left: 42%;
+                top: 50%;
+                padding: 10px;
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+            }
+
+            #profpicborder img
+            {
+                width: 200px;
+                height: 200px;
+            }
+
+            #namelabel
+            {
+                position: absolute;
+                left: 39%;
+                top: 85%;
+            }
+
+            #tabrow
+            {
+                position: absolute;
+                top: 95%;
+                left: 28%;
+            }
+
+            #tabrow button
+            {
+                background-color: white;
+                border: 3px solid grey;
+                color: black;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            #tabrow button:hover
+            {
+                background-color: grey;
+                color: white;
+            }
+
+            #tabrow button:active
+            {
+                background-color: grey;
+                color: white;
+            }
+
+            #aboutbox
+            {
+                border: 3px solid grey;
+                padding: 6px 12px;
+                position: absolute;
+                top: 110%;
+                left: 13%;
+                width: 75%
+            }
+
+            #educationbox
+            {
+                border: 3px solid grey;
+                padding: 6px 12px;
+                position: absolute;
+                top: 110%;
+                left: 13%;
+                width: 75%
+            }
+
+            #skillbox
+            {
+                border: 3px solid grey;
+                padding: 6px 12px;
+                position: absolute;
+                top: 110%;
+                left: 13%;
+                width: 75%
+            }
+
+            #expbox
+            {
+                border: 3px solid grey;
+                padding: 6px 12px;
+                position: absolute;
+                top: 110%;
+                left: 13%;
+                width: 75%
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id = "coverphoto">
+            <img src = "image/0200.png">
+        </div>
+
+        <div id = "profpicborder">
+            <img src = "image/profpic.jpg">
+        </div>
+
+        <div id = "namelabel">
+            <p><h1>Yuvens Putra Barata</h1></p>
+        </div>
+
+        <div id = "tabrow">
+            <button id = "about">Profile</button>
+            <button id = "education">Education</button>
+            <button id = "skill">Skills</button>
+            <button id = "exp">Experience</button>
+        </div>
+
+        <div id = "aboutbox">
+            <h2>Personal Data:</h2>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td></td>
+                    <td>: Yuvens Putra Barata</td>
+                </tr>
+                <tr>
+                    <td>Birth Date & Place</td>
+                    <td></td>
+                    <td>: Pontianak, 3 Juni 1993</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td></td>
+                    <td>: Kompleks Illago, Cluster Fiordini, F2/66, Gading Serpong, Tangerang, Banten</td>
+                </tr>
+                <tr>
+                    <td>Tel. Number</td>
+                    <td></td>
+                    <td>: +6288214257239</td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td></td>
+                    <td>: yuvens.barata@gmail.com</td>
+                </tr>
+            </table>
+
+            <h2>About me</h2>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+
+        <div id = "educationbox">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <td>Primary School</td>
+                    <td></td>
+                    <td>: SD Suster Pontianak</td>
+                </tr>
+                <tr>
+                    <td>Junior High School</td>
+                    <td></td>
+                    <td>: SMP Santu Petrus</td>
+                </tr>
+                <tr>
+                    <td>Senior High School</td>
+                    <td></td>
+                    <td>: SMA Santu Petrus</td>
+                </tr>
+                <tr>
+                    <td>University</td>
+                    <td></td>
+                    <td>: Swiss German University</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id = "skillbox">
+            <h2>Mechatronics Skills</h2>
+            <ul>
+                <li>Electrical Drives</li>
+                <li>Sensor</li>
+                <li>Embedded System</li>
+                <li>Microcontroller</li>
+                <li>Pneumatics & Hydraulics</li>
+                <li>Artificial Intelligence</li>
+            </ul>
+
+            <h2>Programming & Software Skills</h2>
+            <ul>
+                <li>Arduino</li>
+                <li>C++</li>
+                <li>Javascript</li>
+            </ul>
+            <h2>Language Proficiency</h2>
+            <ul>
+                <li>Indonesia</li>
+                <li>English</li>
+                <li>German</li>
+            </ul>
+            <h2>Personal skills</h2>
+            <ul>
+                <li>etc</li>
+                <li>etc</li>
+                <li>etc</li>
+            </ul>
+        </div>
+
+        <div id = "expbox">
+            <h2>Work Experience & Training</h2>
+            <table>
+                <tr>
+                    <td>Place</td>
+                    <td>: METLOG GmBH & Co. KG Germany</td>
+                </tr>
+                <tr>
+                    <td>Duration</td>
+                    <td>: March 2014 - August 2014</td>
+                </tr>
+                <tr>
+                    <td>Position</td>
+                    <td>: Intern</td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td>Place</td>
+                    <td>: Eliketronics Indonesia</td>
+                </tr>
+                <tr>
+                    <td>Duration</td>
+                    <td>: March 2016 - June 2017</td>
+                </tr>
+                <tr>
+                    <td>Position</td>
+                    <td>: Product Support Manager</td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td>Place</td>
+                    <td>: PT. KBRU Insurance Broker</td>
+                </tr>
+                <tr>
+                    <td>Duration</td>
+                    <td>: October 2017 - January 2018</td>
+                </tr>
+                <tr>
+                    <td>Position</td>
+                    <td>: Digital Marketing Officer</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <script>
+            $(document).ready(function()
+            {
+                $("#educationbox").hide();
+                $("#skillbox").hide();
+                $("#expbox").hide();
+
+                $("#about").click(function()
+                {
+                    $("#educationbox").slideUp();
+                    $("#skillbox").slideUp();
+                    $("#expbox").slideUp();
+                    $("#aboutbox").slideDown(1000);
+                });
+
+                $("#education").click(function()
+                {
+                    $("#educationbox").slideDown(1000);
+                    $("#skillbox").slideUp();
+                    $("#expbox").slideUp();
+                    $("#aboutbox").slideUp();
+                });
+
+                $("#skill").click(function()
+                {
+                    $("#educationbox").slideUp();
+                    $("#skillbox").slideDown(1000);
+                    $("#expbox").slideUp();
+                    $("#aboutbox").slideUp();
+                });
+
+                $("#exp").click(function()
+                {
+                    $("#educationbox").slideUp();
+                    $("#skillbox").slideUp();
+                    $("#expbox").slideDown(1000);
+                    $("#aboutbox").slideUp();
+                });
+            });
+        </script>
+    </body>
+</html>
